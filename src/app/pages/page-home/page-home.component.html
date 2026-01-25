@@ -1,0 +1,19 @@
+
+<main class="container-fluid">
+
+  <div class="content text-center mt-5">
+    <h1 class="title">{{title}}</h1>
+  </div>
+  <div class="students d-flex flex-row flex-wrap justify-content-between m-5">
+    <div *ngFor="let student of students  | orderBy: 'surname' ; let i = index" class="item m-2">
+      <a routerLink="{{student.routerLink}}" routerLinkActive="active" class="students">
+        <div class="d-flex flex-column flex-wrap mt-2 ">
+          <img class="mb-2" src="{{student.urlImage}}">
+            <span class="badge rounded-pill bg-primary">{{i}}
+              <span class="name">{{student.surname}}</span>
+            </span>
+        </div>
+      </a>
+    </div>
+  </div>
+</main>

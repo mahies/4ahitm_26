@@ -1,0 +1,18 @@
+
+<div class="container-fluid m-5">
+  <div class="card" style="width: 18rem;">
+    <img src="{{ me.urlImage }}" class="card-img-top" width="20c" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{ me.firstname }} {{ me.surname }}</h5>
+      <p class="card-text">{{me.message}}</p>
+      <div class="d-flex p-2 justify-content-between">
+        <a routerLink="/minnie-subpage1" routerLinkActive="active" class="btn btn-primary">Subpage 1</a>
+        <a routerLink="/minnie-subpage2" routerLinkActive="active" class="btn btn-primary">Subpage 2</a>
+      </div>
+      <div class="d-flex p-2">
+      <a routerLink="/home" routerLinkActive="active" class="btn btn-secondary">Back</a>
+      </div>
+    </div>
+  </div>
+</div>
+
