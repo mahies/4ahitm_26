@@ -15,7 +15,7 @@ export interface Person {
 export  const MINNIE : Person = {
   surname: "Mouse",
   firstname: "Minnie",
-  urlImage: "assets/demo/Minnie_Mouse.webp",
+  urlImage: "assets/minnie/Minnie_Mouse.webp",
   birthday: new Date("1928-11-18"),
   email: "minnie.mouse@htl-donaustadt.at",
   zip_code: 1010,
