@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import {PageHomeComponent} from './pages/page-home/page-home.component';
+import {PageHomeComponent} from './pages/SCHR/page-home/page-home.component';
 
 //MINNI please don't touch!
 import {MinnieHomeComponent} from './pages/pages-demo/minnie/minnie-home/minnie-home.component';

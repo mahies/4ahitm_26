@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {RouterLink, RouterLinkActive} from '@angular/router';
-import {Person, STUDENTS} from '../../model/person';
-import { OrderByPipe } from '../../pipes/orderBy.pipe';
+import {Person, STUDENTS} from '../../../model/person';
+import { OrderByPipe } from '../../../pipes/orderBy.pipe';
 import {NgFor} from '@angular/common';
 
 @Component({
